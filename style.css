@@ -1,0 +1,112 @@
+.colors {
+color: #282c34;
+color: #21222c;
+color: #c5c8c6;
+color: #e06c75;
+color: #a3be8c;
+color: #ebcb8b;
+color: #bf616a;
+color: #be5046;
+color: #e06c75;
+color: #98c379;
+color: #e5c07b;
+color: #d19a66;
+color: #61afef;
+color: #c678dd;
+color: #56b6c2;
+color: #abb2bf;
+color: #eaeaea;
+color: #4b5263;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #21222c;
+  color: #c5c8c6;
+  font-family: 'JetBrainsMono Nerd Font';
+}
+
+.header {
+  margin: 50px;
+}
+
+.greeting {
+  display: block;
+  font-size: 54px;
+  color: #eaeaea;
+  font-weight: bold;
+  text-align: center;
+}
+
+.date-time {
+  font-size: 36px;
+  color: #eaeaea;
+  display: block;
+  margin: 20px;
+  text-align: center;
+}
+
+#date {
+  font-size: 36px;
+}
+#time {
+  font-size: 36px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.link-box {
+  background-color: #282c34;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  width: 200px;
+  height: 220px;
+  box-shadow: 0px 0px 8px #00000050; 
+}
+
+.cat-media {
+  color: #61afef;
+}
+.cat-work {
+  color: #e06c75;
+}
+.cat-school{
+  color: #d19a66;
+}
+.cat-social {
+  color: #ebcb8b;
+}
+.cat-others {
+  color: #98c379;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 5px;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #abb2bf;
+}
+
+.link:hover {
+  color: #eaeaea;
+}
+
